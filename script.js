@@ -19,23 +19,23 @@ document.addEventListener('DOMContentLoaded', () => {
   const PLAYLIST = [
     {
       id: 1,
-      title: "Para Você",
-      artist: "Seu Nome",
+      title: "Te amo tudo que dá",
+      artist: "Vivi",
       src: "https://cdn.pixabay.com/download/audio/2022/01/20/audio_291d2ac2ac.mp3?filename=inspiring-cinematic-ambient-116199.mp3", // Substitua por: 'music/sua-musica-1.mp3'
       coverArt: "https://picsum.photos/500/500?random=1", // Substitua por: 'images/sua-capa-1.jpg'
       lyrics: `(Letra da primeira música)\n\nVerso 1\nCada momento com você é especial\nUm amor que transcende o normal\n\nRefrão\nEsta canção é para você, meu amor\nUm símbolo do nosso eterno calor\n\nVerso 2\nSeu sorriso ilumina o meu dia\nCom você, a vida é pura alegria.`
     },
     {
       id: 2,
-      title: "Nossa História",
-      artist: "Seu Nome",
+      title: "Casa",
+      artist: "Vivi",
       src: "https://cdn.pixabay.com/download/audio/2022/08/04/audio_2dde64b24c.mp3?filename=the-beat-of-nature-122841.mp3", // Substitua por: 'music/sua-musica-2.mp3'
       coverArt: "https://picsum.photos/500/500?random=2", // Substitua por: 'images/sua-capa-2.jpg'
       lyrics: `(Letra da segunda música)\n\nVerso 1\nLembro do dia em que te conheci\nO mundo parou, e eu só vi você ali\n\nRefrão\nNossa história, escrita nas estrelas\nUm conto de fadas, das mais belas\n\nVerso 2\nCada passo juntos, uma nova canção\nUm amor que cresce no coração.`
     },
     {
       id: 3,
-      title: "Juntos Para Sempre",
+      title: "Thico",
       artist: "Seu Nome",
       src: "https://cdn.pixabay.com/download/audio/2021/11/23/audio_851481b374.mp3?filename=lifelike-126735.mp3", // Substitua por: 'music/sua-musica-3.mp3'
       coverArt: "https://picsum.photos/500/500?random=3", // Substitua por: 'images/sua-capa-3.jpg'
@@ -43,12 +43,19 @@ document.addEventListener('DOMContentLoaded', () => {
     },
     {
       id: 4,
-      title: "Meu Porto Seguro",
-      artist: "Seu Nome",
+      title: "Princeso",
+      artist: "Vivi",
       src: "https://cdn.pixabay.com/download/audio/2022/05/27/audio_15dfb72b93.mp3?filename=in-the-forest-99159.mp3", // Substitua por: 'music/sua-musica-4.mp3'
       coverArt: "https://picsum.photos/500/500?random=4", // Substitua por: 'images/sua-capa-4.jpg'
       lyrics: `(Letra da quarta música)\n\nVerso 1\nQuando a tempestade vem me abalar\nÉ no seu abraço que encontro meu lugar\n\nRefrão\nVocê é meu porto seguro, minha paz\nA certeza de que o amor tudo refaz\n\nVerso 2\nContigo ao meu lado, não temo o perigo\nVocê é meu farol, meu melhor abrigo.`
-    }
+    },
+    {
+      id: 5,
+      title: "Abecedablio",
+      artist: "Vivi",
+      src: "https://cdn.pixabay.com/download/audio/2022/05/27/audio_15dfb72b93.mp3?filename=in-the-forest-99159.mp3", // Substitua por: 'music/sua-musica-4.mp3'
+      coverArt: "https://picsum.photos/500/500?random=4", // Substitua por: 'images/sua-capa-4.jpg'
+      lyrics: `(Letra da quarta música)\n\nVerso 1\nQuando a tempestade vem me abalar\nÉ no seu abraço que encontro meu lugar\n\nRefrão\nVocê é meu porto seguro, minha paz\nA certeza de que o amor tudo refaz\n\nVerso 2\nContigo ao meu lado, não temo o perigo\nVocê é meu farol, meu melhor abrigo.`
   ];
 
   // State variables
