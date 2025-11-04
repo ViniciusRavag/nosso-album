@@ -21,7 +21,7 @@ document.addEventListener('DOMContentLoaded', () => {
       id: 1,
       title: "Te amo tudo que dá",
       artist: "Vivi",
-      src: "https://cdn.pixabay.com/download/audio/2022/01/20/audio_291d2ac2ac.mp3?filename=inspiring-cinematic-ambient-116199.mp3", // Substitua por: 'music/sua-musica-1.mp3'
+      src: "music/Mylla.mp3", // Substitua por: 'music/sua-musica-1.mp3'
       coverArt: "https://picsum.photos/500/500?random=1", // Substitua por: 'images/sua-capa-1.jpg'
       lyrics: `(Letra da primeira música)\n\nVerso 1\nCada momento com você é especial\nUm amor que transcende o normal\n\nRefrão\nEsta canção é para você, meu amor\nUm símbolo do nosso eterno calor\n\nVerso 2\nSeu sorriso ilumina o meu dia\nCom você, a vida é pura alegria.`
     },
